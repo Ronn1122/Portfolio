@@ -1,0 +1,18 @@
+body {
+    font-family: sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+nav {
+    margin-bottom: 20px;
+}
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #007acc;
+}
+main {
+    max-width: 800px;
+}
