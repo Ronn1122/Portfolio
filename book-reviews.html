@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Book Reviews | Raunaq Bahl</title>
-    <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Reviews | Raunaq Bahl</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
 </head>
-<body>
-<nav>
-    <a href="index.html">Home</a> |
-    <a href="about.html">About</a> |
-    <a href="projects.html">Projects</a> |
-    <a href="book-reviews.html">Book Reviews</a> |
-    <a href="contact.html">Contact</a>
-</nav>
-<main>
-    <h1>Book Reviews</h1>
+<body class="bg-white text-gray-800 px-6 py-10 max-w-3xl mx-auto">
+  <nav class="mb-10">
+    <ul class="flex flex-wrap gap-4 text-sm text-blue-600 font-medium">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="book-reviews.html">Book Reviews</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main class="space-y-4">
+    <h1 class="text-3xl font-bold mb-4">Book Reviews</h1>
     
 <p>I run an Instagram page called <strong>@bahlsahabreadingthings</strong> where I review books across genres with a rating system called the <strong>Bahlsahab Factor</strong> (a score out of 10 based on vibes and personal impact).</p>
-<ul>
-  <li><strong>Tomorrow, and Tomorrow, and Tomorrow</strong> – Bahlsahab Factor: 9/10</li>
-  <li><strong>Open Water</strong> – Bahlsahab Factor: 8.5/10</li>
-  <li><strong>The Years</strong> by Annie Ernaux – Bahlsahab Factor: 8.2/10</li>
-  <li><strong>The Ministry of Utmost Happiness</strong> – Bahlsahab Factor: 9/10</li>
-</ul>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+  <div class="p-4 border rounded"><strong>Tomorrow, and Tomorrow, and Tomorrow</strong><br/>Bahlsahab Factor: 9/10</div>
+  <div class="p-4 border rounded"><strong>Open Water</strong><br/>Bahlsahab Factor: 8.5/10</div>
+  <div class="p-4 border rounded"><strong>The Years</strong> by Annie Ernaux<br/>Bahlsahab Factor: 8.2/10</div>
+  <div class="p-4 border rounded"><strong>The Ministry of Utmost Happiness</strong><br/>Bahlsahab Factor: 9/10</div>
+</div>
 
-</main>
+  </main>
 </body>
 </html>
