@@ -1,35 +1,698 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home | Raunaq Bahl</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    body { font-family: 'Inter', sans-serif; }
-  </style>
-</head>
-<body class="bg-white text-gray-800 px-6 py-10 max-w-3xl mx-auto">
-  <nav class="mb-10">
-    <ul class="flex flex-wrap gap-4 text-sm text-blue-600 font-medium">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="book-reviews.html">Book Reviews</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-  <main class="space-y-4">
-    <h1 class="text-3xl font-bold mb-4">Raunaq Bahl</h1>
-    
-<p class="text-xl font-semibold">Product Manager · Writer · Sydney / Delhi</p>
-<p>Hi, I’m Raunaq. I currently lead the Communications platform at Deputy, working across messaging, notifications, and newsfeed experiences. Previously, I rebuilt our global leave engine. Before that, I worked in eCommerce. I like thinking about platforms, culture, and clarity.</p>
-<p>This site holds my projects, my book reviews, and whatever else I feel like sharing.</p>
-<p>If you’re a recruiter, founder, writer, or someone curious, I’d love to connect.</p>
-<p><a href="mailto:raunaqbahl@gmail.com" class="text-blue-600 underline">raunaqbahl@gmail.com</a></p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Raunaq Bahl </title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
 
-  </main>
-</body>
-</html>
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.highlight-default_background {
+	color: rgba(50, 48, 44, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(115, 114, 110, 1);
+	fill: rgba(115, 114, 110, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(205, 60, 58, 1);
+	fill: rgba(205, 60, 58, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="60609ac1-1c6d-4d33-8128-7a2c0fb17cb0" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/gradients_5.png" style="object-position:center 40%"/><div class="page-header-icon page-header-icon-with-cover"><img class="icon" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/IMG_8B69D2CD1D08-1-removebg-preview.png"/></div><h1 class="page-title">Raunaq Bahl </h1><p class="page-description"></p></header><div class="page-body"><p id="709e68a0-3b07-4d82-bcae-c052646d3cec" class="">
+</p><div id="5e669251-9351-4f2e-b3d7-d3a9b874dd2c" class="column-list"><div id="3c310d1e-3bcc-43af-9cc3-6f6761c0b274" style="width:50%" class="column"><h1 id="6d298cc1-5989-4c0d-937a-4868003c6e5c" class="">Hi! I love building and shipping products which make a tangible difference to people&#x27;s lives. Currently, I’m a Product Manager at <a href="http://www.deputy.com">Deputy</a>, where I help enrich the lives of millions of shift workers around the world. 🚀</h1><p id="fd26850a-510a-40fa-a698-4d4ab1c52443" class="">
+</p><h3 id="7650f457-9a6f-4074-aae1-f55c659a0898" class="">Find some of my work below! 👇</h3><p id="38c5bcc7-5540-496f-ae70-542b928e908b" class="">
+</p></div><div id="321204aa-0b1c-4cc6-9c9c-80d4e84d10f5" style="width:50%" class="column"><figure id="656817d9-7a03-4cdd-ab81-e58aa46fc46d" class="image"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/IMG_4819_2.heic"><img style="width:528px" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/IMG_4819_2.heic"/></a><figcaption>Pronouns: he/him </figcaption></figure></div></div><p id="1df421ab-181b-4530-9159-072926960310" class="">
+</p><div><p id="ba8dc613-f551-4582-b378-819bd78f7909" class="">
+</p></div><p id="d5f70a83-54e4-40d9-9669-9bf47c9b961d" class="">
+</p><p id="62126692-df5e-44e7-a620-ec0e073de400" class="">
+</p><p id="a2b19cac-7acf-4c28-ad1a-22f2baaa7eba" class=""><br/><br/></p><div id="e72d5ec4-0e70-417a-a7c7-d83a9b7da3f8" class="collection-content"><h4 class="collection-title">Work</h4><table class="collection-content"><thead><tr><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesTitle"><path d="M0.637695 13.1914C1.0957 13.1914 1.32812 13 1.47852 12.5215L2.24414 10.3887H6.14746L6.90625 12.5215C7.05664 13 7.2959 13.1914 7.74707 13.1914C8.22559 13.1914 8.5332 12.9043 8.5332 12.4531C8.5332 12.2891 8.50586 12.1523 8.44434 11.9678L5.41602 3.79199C5.2041 3.21777 4.82129 2.9375 4.19922 2.9375C3.60449 2.9375 3.21484 3.21777 3.0166 3.78516L-0.0322266 12.002C-0.09375 12.1797 -0.121094 12.3232 -0.121094 12.4668C-0.121094 12.918 0.166016 13.1914 0.637695 13.1914ZM2.63379 9.12402L4.17871 4.68066H4.21973L5.76465 9.12402H2.63379ZM12.2793 13.2324C13.3115 13.2324 14.2891 12.6787 14.7129 11.8037H14.7402V12.5762C14.7471 12.9863 15.0273 13.2393 15.4238 13.2393C15.834 13.2393 16.1143 12.9795 16.1143 12.5215V8.00977C16.1143 6.49902 14.9658 5.52148 13.1543 5.52148C11.7666 5.52148 10.6592 6.08887 10.2695 6.99121C10.1943 7.15527 10.1533 7.3125 10.1533 7.46289C10.1533 7.81152 10.4062 8.04395 10.7686 8.04395C11.0215 8.04395 11.2129 7.94824 11.3496 7.73633C11.7529 6.99121 12.2861 6.65625 13.1064 6.65625C14.0977 6.65625 14.6992 7.20996 14.6992 8.1123V8.67285L12.5664 8.7959C10.7686 8.8916 9.77734 9.69824 9.77734 11.0107C9.77734 12.3369 10.8096 13.2324 12.2793 13.2324ZM12.6621 12.1387C11.8008 12.1387 11.2129 11.667 11.2129 10.9561C11.2129 10.2725 11.7598 9.82129 12.7578 9.75977L14.6992 9.62988V10.3203C14.6992 11.3457 13.7969 12.1387 12.6621 12.1387Z"></path></svg></span>Name</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesSelect"><path d="M8 15.126C11.8623 15.126 15.0615 11.9336 15.0615 8.06445C15.0615 4.20215 11.8623 1.00293 7.99316 1.00293C4.13086 1.00293 0.938477 4.20215 0.938477 8.06445C0.938477 11.9336 4.1377 15.126 8 15.126ZM8 13.7383C4.85547 13.7383 2.33301 11.209 2.33301 8.06445C2.33301 4.91992 4.84863 2.39746 7.99316 2.39746C11.1377 2.39746 13.6738 4.91992 13.6738 8.06445C13.6738 11.209 11.1445 13.7383 8 13.7383ZM7.62402 10.6348C7.79492 10.915 8.20508 10.9287 8.37598 10.6348L10.666 6.73145C10.8574 6.41016 10.7002 6.04102 10.3652 6.04102H5.62793C5.29297 6.04102 5.14941 6.43066 5.32031 6.73145L7.62402 10.6348Z"></path></svg></span>Industry</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>Tag</th><th><span class="icon property-icon"><svg aria-hidden="true" role="graphics-symbol" viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(71, 70, 68, 0.6);flex-shrink:0" class="typesText"><path d="M1.56738 3.25879H14.4258C14.7676 3.25879 15.0479 2.97852 15.0479 2.63672C15.0479 2.29492 14.7744 2.02148 14.4258 2.02148H1.56738C1.21875 2.02148 0.952148 2.29492 0.952148 2.63672C0.952148 2.97852 1.22559 3.25879 1.56738 3.25879ZM1.56738 6.84082H14.4258C14.7676 6.84082 15.0479 6.56055 15.0479 6.21875C15.0479 5.87695 14.7744 5.60352 14.4258 5.60352H1.56738C1.21875 5.60352 0.952148 5.87695 0.952148 6.21875C0.952148 6.56055 1.22559 6.84082 1.56738 6.84082ZM1.56738 10.4229H14.4258C14.7676 10.4229 15.0479 10.1426 15.0479 9.80078C15.0479 9.45898 14.7744 9.18555 14.4258 9.18555H1.56738C1.21875 9.18555 0.952148 9.45898 0.952148 9.80078C0.952148 10.1426 1.22559 10.4229 1.56738 10.4229ZM1.56738 14.0049H8.75879C9.10059 14.0049 9.38086 13.7246 9.38086 13.3828C9.38086 13.041 9.10742 12.7676 8.75879 12.7676H1.56738C1.21875 12.7676 0.952148 13.041 0.952148 13.3828C0.952148 13.7246 1.22559 14.0049 1.56738 14.0049Z"></path></svg></span>Tagline</th></tr></thead><tbody><tr id="48c97122-a2c7-47c9-9d9c-5bdaac38f1cf"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Deputy%2048c97122a2c747c99d9c5bdaac38f1cf.html"><img class="icon" src="https://gdm-catalog-fmapi-prod.imgix.net/ProductLogo/4e73c238-9fb6-4d4f-957a-387bd9420014.png?auto=format&amp;ixlib=react-9.0.3"/>Deputy</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-blue">Product Management</span><span class="selected-value select-value-color-gray">Tech</span></td><td class="cell-..9{">Product Manager within the Leave Management team</td></tr><tr id="c3bd0eca-0038-424b-a192-7d9f58d6a9bd"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/MAISON%20de%20SABRE%CC%81%20c3bd0eca0038424ba1927d9f58d6a9bd.html">MAISON de SABRÉ</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-blue">Product Management</span><span class="selected-value select-value-color-yellow">UI/UX</span><span class="selected-value select-value-color-orange">eCommerce</span></td><td class="cell-..9{">Product Management and Strategy at an eCommerce Startup</td></tr><tr id="357beb92-69b4-4e61-a3ee-9046197f659c"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/GreenSanity%20357beb9269b44e61a3ee9046197f659c.html"><span class="icon">🌿</span>GreenSanity</a></td><td class="cell-d\oP"><span class="selected-value select-value-color-yellow">Sustainable Fashion</span></td><td class="cell-oUmD"><span class="selected-value select-value-color-pink">Creative Direction</span><span class="selected-value select-value-color-yellow">UI/UX</span><span class="selected-value select-value-color-orange">eCommerce</span></td><td class="cell-..9{">Sustainable fashion label and design house.</td></tr><tr id="a08fbffd-b74a-4f4e-ab29-7336cc9fdc1c"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Psych%20UX%20Case%20Study%20a08fbffdb74a4f4eab297336cc9fdc1c.html"><span class="icon">🌀</span>Psych: UX Case Study</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-default">Mobile App</span><span class="selected-value select-value-color-red">Product</span><span class="selected-value select-value-color-yellow">UI/UX</span></td><td class="cell-..9{">An all-in-one mental health app</td></tr><tr id="282cbef4-3ac8-46fd-809b-38d1f488d598"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Wabi%20Sabi%20282cbef43ac846fd809b38d1f488d598.html"><span class="icon">🏯</span>Wabi Sabi</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-red">Brand Identity</span><span class="selected-value select-value-color-yellow">UI/UX</span><span class="selected-value select-value-color-green">Website</span></td><td class="cell-..9{">Responsive website for a pottery-themed resort set in post-war 1950s Japan.</td></tr><tr id="9fc14ad6-f4f1-40e1-8293-7ed4058dcdde"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Brocc%20UX%20Case%20Study%209fc14ad6f4f140e182937ed4058dcdde.html"><span class="icon">🥦</span>Brocc: UX Case Study</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-default">Mobile App</span><span class="selected-value select-value-color-red">Product</span><span class="selected-value select-value-color-yellow">UI/UX</span></td><td class="cell-..9{">Sustainable fashion label and design house.</td></tr><tr id="4122f326-80cd-409e-9d68-8e6a3e6d916c"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Garbinger%20Making%20Recyling%20Easier,%20Personal%20and%20Bet%204122f32680cd409e9d688e6a3e6d916c.html"><span class="icon">♻️</span>Garbinger: Making Recyling Easier, Personal and Better.</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-brown">Interaction Design</span><span class="selected-value select-value-color-red">Product</span><span class="selected-value select-value-color-yellow">UI/UX</span></td><td class="cell-..9{">Tangible Spatial Display helping people recycle better.</td></tr><tr id="6592de3f-ecb6-464d-aaec-ed8e0836347f"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Spotify%20Infographic%206592de3fecb6464daaeced8e0836347f.html"><img class="icon" src="https://developer.spotify.com/assets/branding-guidelines/icon3@2x.png"/>Spotify Infographic</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-red">Brand Identity</span><span class="selected-value select-value-color-green">Graphic Design</span></td><td class="cell-..9{">Infographic made for a Graphic Design Course.</td></tr><tr id="cfdfa7fd-9fcf-42bb-a1af-46a75a1ff752"><td class="cell-title"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Work%20e72d5ec40e70417aa7c7d83a9b7da3f8/Pontings%20&amp;%20Co%20cfdfa7fd9fcf42bba1af46a75a1ff752.html">Pontings &amp; Co</a></td><td class="cell-d\oP"></td><td class="cell-oUmD"><span class="selected-value select-value-color-red">Brand Identity</span><span class="selected-value select-value-color-pink">Creative Direction</span><span class="selected-value select-value-color-green">Website</span></td><td class="cell-..9{">Brand Identity and Website for an Accounting Firm based on the Gold Coast, Australia.</td></tr></tbody></table><br/><br/></div><ul id="d50b298c-444b-40fe-add7-758c567b4ab6" class="toggle"><li><details open=""><summary>Raunaq&#x27;s Art Profile</summary><figure id="758b4d96-280c-4916-ac0e-e041cb3f75c9" class="link-to-page"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Raunaq&#x27;s%20Art%20Profile%20758b4d96280c4916ac0ee041cb3f75c9.html">Raunaq&#x27;s Art Profile</a></figure><figure id="bc3894ef-b10e-43f6-a6c2-aa225e457985" class="link-to-page"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Photography%20bc3894efb10e43f6a6c2aa225e457985.html"><span class="icon">📸</span>Photography</a></figure></details></li></ul><h1 id="b2ffbdae-8a5b-4b5f-b42c-000aefe3280e" class="">About</h1><div id="9b8be0ad-2d12-4fb1-a639-da98a24c1321" class="column-list"><div id="24223add-acb7-4da4-a69f-9d97ccc36e76" style="width:33.33333333333333%" class="column"><h2 id="b8bfd652-31ab-4088-9b65-1f0292ed0469" class="block-color-gray">Current Role</h2><p id="976fc6ec-9ec6-493d-a889-eae68faa4473" class=""><strong>Product Manager II</strong></p><p id="1a75fd72-64d9-4b4f-bbc3-4c4d0333a8cd" class="">Deputy</p><p id="ae3d4b92-4b99-4226-b745-def2ce5e811d" class="">Sydney, Australia</p><p id="28504cbf-6e0d-43b7-8853-5aa5ddf79228" class="">Since October, 2021</p><p id="335508c4-1203-4ed7-ab79-d9f354715c7d" class=""><em>Find out more about Deputy </em><em><a href="http://www.deputy.com">here</a></em><em>.</em></p><p id="40b3d638-013b-457a-ac0f-670eb45c2870" class="">
+</p></div><div id="0761b08c-40ba-4b8d-87f3-a35e507dacb7" style="width:33.33333333333333%" class="column"><h2 id="9c29e057-c37b-4b83-80ce-8d098f14272a" class="block-color-gray">Skills</h2><ul id="45ff7726-8e1b-44c0-b82e-eac3be7ac42b" class="bulleted-list"><li style="list-style-type:disc">Product Management</li></ul><ul id="b855181b-f2b4-4baf-b1d8-6a351850bb1d" class="bulleted-list"><li style="list-style-type:disc">UI/UX Design</li></ul><ul id="1d9d80f3-d902-4886-89be-cf0e1c1208e3" class="bulleted-list"><li style="list-style-type:disc">GTM Strategy</li></ul><ul id="d3078b23-7d2b-45aa-9630-dfbc21f572d5" class="bulleted-list"><li style="list-style-type:disc">Art Direction</li></ul><ul id="0a5e737a-5dea-47b6-b421-859f3f669c79" class="bulleted-list"><li style="list-style-type:disc">Creative Writing</li></ul></div><div id="5ca6915c-5125-4516-9ecb-6c9429f01f9b" style="width:33.33333333333336%" class="column"><h2 id="bc216e1d-fd08-492a-9ae9-a48063af8cb5" class="block-color-gray">Education</h2><p id="6a616f5c-6f73-4860-a08b-c78bdb8d2f30" class=""><strong>The University of Queensland</strong></p><p id="d7036881-14b3-4a22-8b35-2874aa047c58" class=""><strong><em>Bachelor of Engineering (Honours)</em></strong><em> (Software Engineering with a specialisation in Human-Centred Design)</em></p><p id="7ffb8124-079b-40d4-9c68-ac5f1fa797d8" class="">Graduated with Distinction (GPA: 6.1/7)</p><p id="b3cb98a3-a2ca-4812-ae6b-7315a8af993d" class="">
+</p></div></div><hr id="4d1ee7ca-86f8-4ad6-bfb5-b81417a53124"/><h2 id="89d7c42e-55f3-417b-a436-9627e4e99e34" class="block-color-gray">Previous Work Experience</h2><div id="ee7e40dc-1ce5-4b38-8624-12399727da00" class="column-list"><div id="aaa32451-9def-4c81-97bf-f4af5e3b523e" style="width:33.33333333333333%" class="column"><p id="bcd0b5ee-04ad-4368-af33-6acff7111bc2" class=""><strong>Associate Product Manager </strong></p><p id="0544e43c-d7ab-4ca3-a3a4-3151db27e3d4" class="">MAISON de SABRÉ</p><p id="ee807c79-6fd7-4fb9-8329-f1b85290e713" class="">Sydney, Australia</p><p id="ac9dc5a7-cf7a-47ca-b8b9-6cc2a0e8be83" class=""><em>July 2020 - October 2021</em></p></div><div id="ea8a42aa-2a65-4620-88ed-cfb15568088a" style="width:33.33333333333333%" class="column"><p id="9ae3e1b5-3cdf-4421-8f3b-47f75dff961b" class=""><strong>Co-Founder, Creative Director</strong></p><p id="ea6c28fb-d866-4394-844f-8b5e4b1a5a40" class="">GreenSanity</p><p id="2e31bf2c-a90d-4b91-9849-af4df526f52d" class="">Gold Coast, Australia</p><p id="674a3425-632f-4e07-bb86-7a5fe2b8fcd6" class=""><em>October 2019 - January 2021</em></p></div><div id="cd1785a3-bd5c-477e-870a-48ea528da65d" style="width:33.33333333333333%" class="column"><p id="95570f39-a4c0-480b-8be4-6e12dc6e0cbb" class=""><strong>Teaching Assistant</strong></p><p id="206d83a5-d508-413f-83b7-536edc419cd6" class="">The University of Queensland</p><p id="7fa1e9db-4171-4c9e-849d-d59efa2240ee" class="">Brisbane, Australia</p><p id="e516157b-45df-4939-84a5-6d1a33d5f586" class=""><em>February 2019 - November 2020</em></p></div></div><p id="715cee34-c4fc-434e-8fe1-344eeb7a57b8" class="">
+</p><h1 id="016fea03-ab2d-41d3-95db-80d34b2d2989" class="">My Toolkit</h1><p id="02a926fc-f6f5-45b8-b2b5-6195bc2c1df1" class="block-color-gray">I have been an autodidact for as long as I can remember, so I&#x27;m never afraid to pick up anything new.</p><div id="f3b4de95-b7fe-43c5-838e-f4efb8ee3b76" class="column-list"><div id="6bec07f9-359a-4ed2-b95f-742543d18ff5" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="c0676c9d-f544-47c2-8413-d26720650b64"><div style="font-size:1.5em"><img class="icon" src="https://cdn.sanity.io/images/599r6htc/production/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=670&amp;h=670&amp;q=75&amp;fit=max&amp;auto=format"/></div><div style="width:100%">Figma</div></figure></div><div id="d11585ff-48e7-4b49-9598-042458a23dff" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="929005a9-853f-4af1-a68f-23c4e593cde2"><div style="font-size:1.5em"><img class="icon" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/images.jpeg"/></div><div style="width:100%">Jira </div></figure></div><div id="be2e0446-ffec-4f2e-afec-7a69389f404c" style="width:33.33333333333333%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="14cdab54-ff6c-42b7-ac7e-27aadbe6ba3b"><div style="font-size:1.5em"><img class="icon" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/ChatGPT_logo.svg.webp"/></div><div style="width:100%">ChatGPT</div></figure></div></div><div id="15ccdddb-b990-4bf9-ac4a-3ca5db055b69" class="column-list"><div id="d81c8c86-77a7-4482-85b3-952f1695c555" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="6922c426-b355-46e0-aff1-40c93c4fc1c7"><div style="font-size:1.5em"><img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ-byKFcPR_lOX_wiTugGw-BYZagk5ZzsI8hHT1lUrk4btJzxs04UmgMScuJ4UUUr1QeU&amp;usqp=CAU"/></div><div style="width:100%">Adobe Illustrator</div></figure></div><div id="602bfbb0-4d8b-4d3a-873f-dd0da9b10f31" style="width:33.33333333333333%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="7547e512-e161-4fce-a159-06de3c8828c6"><div style="font-size:1.5em"><img class="icon" src="data:image/png;base64,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"/></div><div style="width:100%"><p id="02f35faa-87e0-4dc3-8338-1907055c6bf3" class="">Slack</p></div></figure></div><div id="f0d8979c-c020-4296-bb14-d6fa11e1a61f" style="width:33.33333333333334%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="de0e8736-ddec-472b-b7d3-640a8837c2fb"><div style="font-size:1.5em"><img class="icon" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/download.jpeg"/></div><div style="width:100%">DataDog</div></figure></div></div><div id="ea839fa0-b086-4cbe-b639-acc3e9b4f9a8" class="column-list"><div id="1a0a2696-2640-4811-a6d0-2af4b91a366b" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="76f6c4bd-83dc-4bd0-8171-15e996cb05ab"><div style="font-size:1.5em"><img class="icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></div><div style="width:100%">GitHub</div></figure></div><div id="b9bfb35b-c92f-426c-96df-ccee2e6bb1c1" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="afe4c2b0-d24c-4e7a-b314-9eb511aff0f7"><div style="font-size:1.5em"><img class="icon" src="data:image/png;base64,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"/></div><div style="width:100%">G-Suite</div></figure></div><div id="818c8010-5e0f-4df4-8534-001d222a822c" style="width:33.33333333333333%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="06c0676c-0594-4660-ac3d-b2d7b3b8c868"><div style="font-size:1.5em"><span class="icon">📝</span></div><div style="width:100%"><p id="039cc3a4-6440-494e-af9a-2bf8b5d662b8" class="">Pen, Paper, Post-Its</p></div></figure></div></div><div id="cb02e2ae-6a32-4e70-8da0-19f5919a30fa" class="column-list"><div id="834ec177-4c60-4cfe-9f97-5b57e65adaba" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="f2378595-6ff8-4690-8efe-1f1b6a87e5e1"><div style="font-size:1.5em"><img class="icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWZRJ3mKKyV_QTldWX4bjmfVJdUpRL4DDsrqsIvasZRndvP-yGvxqZdvgx5rQWn-ECvds&amp;usqp=CAU"/></div><div style="width:100%">Trello</div></figure></div><div id="b4e71d13-7742-4f93-81af-f3492b040a24" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="f0a8feee-a58e-4fd8-8fb3-362c24f67a21"><div style="font-size:1.5em"><img class="icon" src="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/download.png"/></div><div style="width:100%">Mixpanel</div></figure></div><div id="de6519d3-2a53-4720-9cbf-8c8a3a339c36" style="width:33.33333333333333%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="6a52a59a-764e-41ba-a4e6-bbf932e34072"><div style="font-size:1.5em"><img class="icon" src="https://i0.wp.com/assets.uigarage.net/content/uploads/2018/12/5a189ca5c921be96c40915c3859a9db6.png?fit=1200%2C1200&amp;ssl=1"/></div><div style="width:100%">Hotjar</div></figure></div></div><p id="ba3d7ae6-ab85-47fa-8746-fdda77607adb" class="">
+</p><div id="362cabd9-56f1-4f1f-bb9c-fb23557b6df7" class="column-list"><div id="12270c2d-5428-433f-a752-53789194ed7c" style="width:56.25%" class="column"><p id="479dc6e8-8515-4975-9f33-63533f9f5080" class="">
+</p><h2 id="383632d8-9889-4eac-bfe4-327a238ce26e" class="">If you scribble three overlapping circles on a piece of paper, with one representing <span style="border-bottom:0.05em solid">technology</span>, the other being <span style="border-bottom:0.05em solid">design</span>, and the last one being <span style="border-bottom:0.05em solid">business</span>, you would find me right in the middle, at the intersection. I have an eye for <span style="border-bottom:0.05em solid">design</span>, a mind for <span style="border-bottom:0.05em solid">strategy</span>, and a heart for <span style="border-bottom:0.05em solid">product</span>.</h2><h3 id="0d40d563-afcb-4cfa-ab52-0ad4829f8c2a" class="block-color-yellow"><mark class="highlight-purple"><strong>I also </strong></mark><mark class="highlight-purple"><a href="https://www.notion.so/Writing-9ef3ba36434a463f90091de199c3b6b1?pvs=21"><strong>write stuff</strong></a></mark><mark class="highlight-purple"><strong> 🖌, doodle </strong></mark><mark class="highlight-purple">👾, </mark><mark class="highlight-purple"><strong>hoard postcards 🎑</strong></mark><mark class="highlight-purple">, </mark><mark class="highlight-purple"><strong>and </strong></mark><mark class="highlight-purple"><a href="Raunaq%20Bahl%2060609ac11c6d4d3381287a2c0fb17cb0/Photography%20bc3894efb10e43f6a6c2aa225e457985.html"><strong>click pictures</strong></a></mark><mark class="highlight-purple"><strong> 📸 . I&#x27;m a big believer in learning something new, no matter how small, everyday. </strong></mark></h3><p id="246bb29f-c863-4d12-88f1-2d60d9f2d54f" class="">
+</p></div><div id="dc171323-8ac0-432d-a6ed-eb6d86db8908" style="width:43.75%" class="column"><p id="b12e862a-e41f-4bd6-8b12-b06f14c7e5d2" class="block-color-yellow"><mark class="highlight-purple"><strong><em>Here&#x27;s what I&#x27;m looping nowadays:</em></strong></mark></p><figure id="c325cfd8-e87a-4349-b18f-3adece8e5532"><div class="source"><a href="https://open.spotify.com/embed/playlist/37i9dQZF1EphNUNIniM5SY">https://open.spotify.com/embed/playlist/37i9dQZF1EphNUNIniM5SY</a></div></figure></div></div><h1 id="886cffa7-b362-4099-9870-a9f3cd81772c" class="">Get in touch</h1><p id="83e23cd2-694c-45d1-9ec3-6982dbab0edf" class=""><mark class="highlight-gray">Let&#x27;s get together for e-coffee:</mark></p><div id="84a74b68-cff1-4776-88f9-96bf5872518f" class="column-list"><div id="da01efc6-abb6-469a-b8fd-0b9c463aecb7" style="width:33.333333333333336%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="0538e9f5-425e-4b15-84f6-de6ef4c95c54"><div style="font-size:1.5em"><img class="icon" src="https://super.so/icon/dark/linkedin.svg"/></div><div style="width:100%"><a href="https://www.linkedin.com/in/raunaq-bahl/">LinkedIn</a></div></figure></div><div id="79ab83c2-08c3-45d5-a048-44e84b123fc4" style="width:33.33333333333333%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="667e53d6-1626-4787-9102-f87216579541"><div style="font-size:1.5em"><img class="icon" src="https://www.citypng.com/public/uploads/preview/-11590150289tqivt8c6o1.png"/></div><div style="width:100%"><a href="https://www.instagram.com/bahlenciaga_/">Instagram</a></div></figure></div><div id="690ae815-52f7-4737-b3a7-88b2e756eb69" style="width:33.33333333333334%" class="column"><figure class="callout" style="white-space:pre-wrap;display:flex" id="06c6dbbf-812f-4dae-85ed-560a00051c23"><div style="font-size:1.5em"><img class="icon" src="https://super.so/icon/dark/zap.svg"/></div><div style="width:100%"><a href="mailto:raunaqbahl@gmail.com">Email</a></div></figure></div></div><p id="99fd45fb-52b5-4f1c-95ff-a042d9f45f91" class="">
+</p><p id="5ba803a2-5522-4e38-a355-682ed46c7126" class="">© Raunaq Bahl 2023 · Built with <a href="https://www.notion.so/">Notion</a> and <a href="http://super.so">Super</a></p><p id="f9302e9f-2fb9-4d22-a75e-62ed1d69b2f5" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
